@@ -143,6 +143,30 @@ function laHora(){
 
 
 
+function climaParis(){
+        $(document).ready(function(){
+        $.getJSON("http://api.openweathermap.org/data/2.5/group?id=2988507&units=metric&appid=bd82977b86bf27fb59a04b61b657fb6f&callback=?",function(result){
+
+  
+    var city= result.list[0].name;
+    
+
+     
+      var estadoTiempo= result.list[0].weather[0].description;
+     // var tempActual= result.list[0].weather[0].main;
+
+     var tempActual= result.list[0].main.temp;
+
+
+    document.getElementById('ciudad').innerHTML = "Ciudad: " +city;
+    document.getElementById('estadoTiempo').innerHTML = "Estado actual: " +estadoTiempo;
+    document.getElementById('tempActual').innerHTML = "Temperatura actual: " +tempActual;
+
+      
+    });
+});
+}
+
 
 function climaNY(){
         $(document).ready(function(){
@@ -169,30 +193,6 @@ function climaNY(){
 }
 
 
-
-function climaPar(){
-        $(document).ready(function(){
-        $.getJSON("http://api.openweathermap.org/data/2.5/group?id=2988507&units=metric&appid=bd82977b86bf27fb59a04b61b657fb6f&callback=?",function(result){
-
-  
-    var city= result.list[0].name;
-    
-
-     
-      var estadoTiempo= result.list[0].weather[0].description;
-     // var tempActual= result.list[0].weather[0].main;
-
-     var tempActual= result.list[0].main.temp;
-
-
-    document.getElementById('ciudad').innerHTML = "Ciudad: " +city;
-    document.getElementById('estadoTiempo').innerHTML = "Estado actual: " +estadoTiempo;
-    document.getElementById('tempActual').innerHTML = "Temperatura actual: " +tempActual;
-
-      
-    });
-});
-}
 
 
 function noticiasHoy(){
