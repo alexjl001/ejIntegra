@@ -1,0 +1,63 @@
+.main-description{
+color:black;
+
+}
+
+.main-title{
+color:black;
+font-size: 2em;
+}
+
+
+.clima{
+
+
+	color:White;
+	background-color: black;
+	font-family: Verdana;
+	font-size: 2em;
+
+	float: left;
+	margin-left: 5%;
+}
+
+.main-link{
+background: black;
+}
+
+
+.renglones{
+background: white;
+font-size: 1em;
+}
+
+body{
+	color: white;
+	background: url(http://viajesdemexico.com/vm/images/joomlart/slideshow/uxmal-noche-viajes-de-mexico.jpg);
+	
+	background-size: 100% 100%;
+	margin: 5px 5px 5px 5px;
+	background-repeat: no-repeat; 
+
+}
+
+.contacto{
+float: right;
+}
+
+#name{
+	font-size: 1em;
+}
+
+.logo{
+width: 40%;
+height: 40%;
+float: center;
+margin-left: 30%;
+
+}
+
+.photo{
+width:4em;
+
+}
