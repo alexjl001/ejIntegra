@@ -21,6 +21,20 @@ font-size: 2em;
 	margin-left: 5%;
 }
 
+.hora{
+
+	color:White;
+	background-color: black;
+	font-family: Verdana;
+	font-size: 1em;
+
+	float: left;
+	margin-left: 3%;
+
+
+
+}
+
 .main-link{
 background: black;
 }
@@ -33,7 +47,7 @@ font-size: 1em;
 
 body{
 	color: white;
-	background: url(http://viajesdemexico.com/vm/images/joomlart/slideshow/uxmal-noche-viajes-de-mexico.jpg);
+	background: url(http://viajesdemexico.com/images/stories/fondo_ejrcicio_integra.jpg);
 	
 	background-size: 100% 100%;
 	margin: 5px 5px 5px 5px;
